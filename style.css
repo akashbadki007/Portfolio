@@ -1,0 +1,792 @@
+/* UNIVERSAL Selectors */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    text-align: center;
+    scroll-behavior: smooth;
+}
+
+
+/* BODY STYLE */
+body{
+    width: 100%;
+    height: 100%;
+    background-color: #fafafa;
+}
+
+
+/* HEADER CONTAINER */
+.header-container{
+    width: 1897px;
+    height: 91px;
+    position: fixed;
+    border-radius: 7px;
+    display: flex;
+    gap: 60rem;
+    box-shadow: 0px 0.1px 4px 0.1px #000000;
+    background: linear-gradient(to right,#ffffff,#ffffff);
+}
+
+
+/* HEADER --->> LEFT PART SECTION  */
+.left-side-nav-section{
+    padding: 20px 50px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+
+/* HEADER --->> SET WIDTH & HEIGHT FOR LOGO IMG */
+.logo-img{
+    width: 55px;
+    height: 55px;
+}
+
+.logo-img:hover{
+    border-radius: 24px;
+    background-color: #e2d6fc;
+}
+
+
+/* HEADER --->> SET PROPERTIES FOR LOGO IMG */
+.logo-text{
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 15.6px;
+    word-spacing: 0.7px;
+    letter-spacing: 1.5px;
+    color: #000000;
+    /* background-color: #ffffff; */
+    transition: all 0.3s ease 0s;
+}
+
+
+/* HEADER --->> LOGO-TEXT HOVER */
+.logo-text:hover{
+    color: #7843e9;
+}
+
+
+/* HEADER --->> RIGHT PART SECTION  */
+.right-side-nav-section{
+    padding: 20px 50px;
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+
+/* NAV --->> LEFT PART SECTION  */
+.nav-link{
+    font-weight: 900;
+    letter-spacing: 1.5px;
+    color: #000000;
+    /* background-color: #ffffff; */
+    transition: all 0.3s ease 0s;
+}
+
+
+/* NAV --->> LINK HOVER */
+.nav-link:hover{
+    color: #7843e9;
+}
+
+
+/* -----------------------------------------------------------------  END HEADER CONTAINER ----------------------------------------------------------------- */
+
+
+/* HOME CONTAINER */
+.home-container{
+    width: 1897px;
+    height: 930px;
+    margin-bottom: 10px;
+    display: flex;
+    background: linear-gradient(to right, #A8EDEA,#f4d8e1), url(asset/common-bg.svg);
+    background-size: cover;
+    background-position: center;
+    border: 0.3px solid #f7f8fc;
+}
+
+
+/* HOME --->> DESIGN FOR SOCIAL LINK SECTION  */
+.social-link-section{
+    width: 62px;
+    height: 290px;
+    margin: 320px 0px 0px 5px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 5px;
+    background-color: #ffffff;
+}
+
+
+/* HOME --->> DESIGN FOR SOCIAL LINK ICON  */
+.social-icons-link{
+    width: 32px;
+    height: 32px;
+    margin-left: 15px;
+    font-size: 10px;
+    color: #ffffff;
+    border-radius: 2px;
+}
+
+
+/* HOME --->>  HOVER FOR SOCIAL LINK ICON  */
+.social-icons-link:hover{
+    box-shadow: 0px 0px 0px 5px #b8a0ed;
+    background-color: #b8a0ed;
+}
+
+
+/* HOME --->> DESIGN FOR PRIMARY SECTION FOR HEADING, DESCRI.PROJECTS-BTN,   */
+.primary-section{
+    width: 932px;
+    height: 312px;
+    margin: auto;
+}
+
+
+/* HOME --->> HEADING */
+.primary-heading-class{
+    width: 932px;
+    height: 92px;
+    font-size: 55px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+}
+
+
+/* HOME --->> TEXT */
+.primary-text-class{
+    width: 832px;
+    height: 73px;
+    padding: 5px;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    line-height: 28px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+
+/*  HOME --->> PROJECTS-BTN SECTION */
+.projects-btn-section{
+    width: 935px;
+    height: 62px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*  HOME --->> PROJECTS BTN */
+.project-btn{
+    width: 269px;
+    height: 62px;
+    padding: 15px 83px;
+    font-size: 20.8px;
+    font-weight: 500;
+    text-align: center;
+    line-height: 32px;
+    letter-spacing: 2px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    /* transition: all 0.5s ease-in-out 0.5s; */
+    color: #ffffff;
+    background-color: #7843e9;
+}
+
+
+/*  HOME --->> PROJECT BTN : HOVER */
+.project-btn:hover{
+    position: relative;
+    bottom: 1px;
+    transition: all 0s ease-in-out 0s;
+}
+
+
+/*  HOME --->>  MOUSE-SECTION */
+.mouse-section{
+    position: absolute;
+    bottom: 13%;
+    left: 52%;
+    transform: translateX(-50%);
+}
+
+
+/*  HOME --->> CREATE MOUSE USING CSS PROPERTIES */
+.mouse {
+    width: 25px;
+    height: 40px;
+    border: 2px solid #000000;
+    border-radius: 60px;
+    position: relative;
+    overflow: hidden; 
+}
+
+
+/*  HOME --->> PSEUSO ELEMENTS */
+.mouse::before {
+    content: '';
+    width: 5px;
+    height: 5px;
+    position: absolute;
+    top: 7px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #7843e9;
+    border-radius: 50%;
+    opacity: 1;
+    animation: wheel 1.3 infinite ;
+    -webkit-animation: wheel 1.3s infinite;
+}
+
+
+/*  HOME --->>  ANIMATIONS FOR MOUSE */
+@keyframes wheel {
+
+    to {
+        opacity: 0;
+        top: 27px;
+    } 
+
+}
+
+
+@-webkit-keyframes wheel {
+
+    to {
+        opacity: 0;
+        top: 27px;
+    } 
+}
+
+
+/* ---------------------------------------------------------------------END HOME CONTAINER DESIGN---------------------------------------------------------- */
+
+
+/* ABOUT CONTAINER */
+.about-container{
+    width:1895px;
+    height: 1100px;
+    margin-bottom: 10px;
+    background-color: #f7f8fc;
+    /* background: linear-gradient(to right, #fffff1, #fffff2); */
+    border: 0.3px solid #f7f8fc;
+}
+
+
+/* ABOUT  --->>  HEADING & PARA TEXT */
+.about-heading-para-section{
+    width: 1248px;
+    height: 200px;
+    margin: 100px 324px 50px 324px;
+}
+
+
+/* ABOUT  --->> HEADING CLASS */
+.about-heading-class{
+    width: 1248px;
+    height: 62px;
+    font-size: 41px;
+    font-weight: 900;
+    line-height: 62.4px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    color: #111111;
+}
+
+
+/* ABOUT  --->> PARA CLASS */
+.about-para-class{
+    width: 832px;
+    height: 66px;
+    margin: 0px 208px;
+    text-align:center;
+    padding: 10px;
+    letter-spacing: normal;
+    font-size: 20.8px;
+    line-height: 33.8px;
+    color: #555555;
+}
+
+
+/* ABOUT --- >>  LEFT RIGHT CONTAINER */
+.left-right-about-container{
+    height: 600px;
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+
+
+/* ABOUT --- >>  LEFT SECTION */
+.left-about-section{
+    width: 672px;
+    height: 511px;
+      /* background-color: #fafafa; */
+
+}
+
+/* ABOUT --- >>  LEFT SUB-HEADING */
+.left-about-sub-heading{
+    width: 672px;
+    height: 50px;
+    margin-bottom: 15px;
+    font-size: 29.12px;
+    line-height: 43.68px;
+    text-align: center;
+}
+
+
+/* ABOUT --- >>  LEFT PARA */
+.left-about-para{
+    font-size: 18.72px;
+    line-height: 31.24px;
+    word-spacing: 1px;
+    padding: 10px;
+    text-align: start;
+    text-align: justify;
+    color: #666666;
+    /* background-color: #fafafa; */
+}
+
+
+/* ABOUT --- >>  CONTACT BTN SECTION  */
+.contact-btn-section{
+      margin-top: 12px;
+}
+
+
+/* ABOUT --- >>  CONTACT BTN   */
+.contact-btn{
+    width: 269px;
+    height: 62px;
+    padding: 15px 40px;
+    font-size: 20.8px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 2px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    /* transition: all 0.5s ease-in-out 0.5s; */
+    color: #ffffff;
+    background-color: #7843e9;
+}
+
+
+/* ABOUT --->>  CONTACT BTN : HOVER  */
+.contact-btn:hover{
+    position: relative;
+    bottom: 1px;
+    transition: all 0s ease-in-out 0s;
+}
+
+
+/* ABOUT --->>  RIGHT SECTION */
+.right-about-section{
+    width:900px;
+    height: 500px;
+}
+
+.right-about-sub-heading{
+    width:900px;
+    height: 50px;
+    margin-bottom: 15px;
+    font-size: 29.12px;
+    line-height: 43.68px;
+    text-align: center;
+}
+
+
+/*  ABOUT --->> SKILLS SECTION */
+.skills-section{
+    padding: 8px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 30px;
+}
+
+
+/*  ABOUT --->> MY-SKILLS CLASS */
+.my-skills{
+    padding: 15px;
+    font-size: 1rem;
+    border-radius: 8px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #666;
+    background-color: rgba(153,153,153,.2);
+}
+
+/* --------------------------------------------------------- END ABOUT SECTION DESIGN ---------------------------------------------------------------------- */
+
+
+/* PROJECT CONTAINER */
+.project-container{
+    width: 1897px;
+    height: 2200px;
+    margin-bottom: 10px;
+    background-color: #ffffff;
+    border: 0.2px solid #ffffff;
+}
+
+
+/* PROJECT --- >>  HEADING PARA SECTION */
+.project-heading-para-section{
+    width: 1248px;
+    height: 150px;
+    margin: 100px 324px 5px 324px;
+}
+
+
+/* PROJECT --- >>  HEADING CLASS */
+.project-heading-class{
+    width: 1248px;
+    height: 62px;
+    font-size: 41px;
+    line-height: 62.4px;
+    letter-spacing: 3px;
+    word-spacing: 3px;
+    color: #111111;
+}
+
+
+/* PROJECT --- >>   PARA CLASS */
+.project-para-class{
+    width: 832px;
+    height: 66px;
+    margin: 0px 208px;
+    text-align:center;
+    padding: 10px;
+    letter-spacing: normal;
+    font-size: 20.8px;
+    line-height: 33.8px;
+    color: #555555;
+}
+
+
+/* PROJECT --- >>  LEFT - RIGHT - PROJECT - CONTAINER  */
+.left-right-project-container{
+    width: 1700px;
+    height: 500px;
+    display: flex;
+    margin: 130px 50px;
+}
+
+
+/* PROJECT --- >>  LEFT - PROJECT - SECTION  */
+.left-project-section{
+    width: 615px;
+    height: 424px;
+    height: 445px;
+    margin-left:200px;
+}
+
+
+/* PROJECT --- >>  LEFT - PROJECT - IMG - SECTION */
+.left-project-img{
+    width: 605px;
+    height: 404px;
+    margin-top: 30px;
+    border-radius: 7px;
+}
+
+
+/* PROJECT --- >>  RIGHT - PROJECT  SECTION */
+.right-project-section{
+    width: 578px;
+    height: 426px;
+    padding: 40px;
+    margin: auto;
+}
+
+/* PROJECT --- >>  RIGHT - SECTION HEADING */
+.right-section-project-heading{
+    padding-left: 20px;
+    font-size: 40.12px;
+    letter-spacing: 2px;
+    line-height: 43.68px;
+    text-align: center;
+}
+
+
+/* PROJECT --- >>  RIGHT - SECTION PARA */
+.right-section-project-para{
+    FONT-FAMILY: "Source Sans Pro", sans-serif;
+    width: 578px;
+    height: 127px;
+    padding: 20px;
+    font-size: 18.72px;
+    line-height: 31.824px;
+    text-align: justify;
+    color: #666666;
+}
+
+/* PROJECT --- >> CASE STUDY BTN - SECTION  */
+.case-study-btn-section{
+    margin-top: 50px;
+}
+
+
+/* PROJECT --- >>  CASE STUDY BTN */
+.case-study-btn{
+    padding: 15px 28px;
+    font-size: 20.8px;
+    font-weight: 500;
+    text-align: center;
+    line-height: 32px;
+    letter-spacing: 2px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    color: #ffffff;
+    background-color: #7843e9;
+}
+
+
+/* PROJECT --- >>  CASE STUDY BTN HOVER */
+.case-study-btn:hover{
+    position: relative;
+    bottom: 1px;
+    transition: all 0s ease-in-out 0s;
+}
+
+/* ---------------------------------------------------------- END PROJECT CONTAINER DESIGN ----------------------------------------------------------------- */
+
+
+/* CONATCT CONTAINER */
+.contact-container{
+    width: 1897px;
+    height: 1200px;
+    margin-bottom: 2px;
+    background: linear-gradient(to right, rgba(254, 219, 219, 0.8), rgba(243, 236, 175, 0.8)), url(asset/common-bg.svg);
+    background-size: cover;
+    background-position: center;
+    border: 0.3px solid #f7f8fc;
+}
+
+
+/* CONTACT --- >>  HEADING PARA SECTION */
+.contact-heading-para-section{
+    width: 1248px;
+    height: 100px;
+    margin: 100px 324px 100px 324px;
+}
+
+
+/* CONTACT --- >>  HEADING CLASS */
+.contact-heading-class{
+    width: 1248px;
+    height: 62px;
+    font-size: 41px;
+    font-weight: 600;
+    line-height: 62.4px;
+    letter-spacing: 1px;
+    color: #111111;
+}
+
+
+/* CONTACT --- >>   PARA CLASS */
+.contact-para-class{
+    width: 832px;
+    height: 66px;
+    margin: 0px 208px;
+    text-align:center;
+    padding: 10px;
+    letter-spacing: normal;
+    font-size: 20.8px;
+    line-height: 33.8px;
+    color: #555555;
+}
+
+
+/* CONTACT ---- >>  FORM SECTION */
+.contact-form-section{
+    width: 832px;
+    height:854px;
+    margin: auto;
+    padding: 41px;
+    border-radius: 15px;
+    background-color: #ffffff;
+    box-shadow: 1px 1px 10px 4px #1f1f1f;
+    border: 2px solid #ffffff;
+    border: none;
+}
+
+
+/* CONTACT ---- >>  INPUT NAME, EMAIL, MSG PARA */
+.contact-input-name-para, 
+.contact-input-email-para,
+.contact-input-msg-para  {
+    font-size: 18px;
+    line-height: 22px;
+    text-align: start;
+    padding: 10px;
+    color: #666666;
+    background-color: #ffffff;
+}
+
+
+/* CONTACT ---- >>  INPUT NAME, EMAIL */
+.contact-input-name,
+.contact-input-email {
+    width: 748px;
+    height: 64px;
+    margin: 10px;
+    padding: 20px;
+    font-size: 18px;
+    text-align: start;
+    outline: none;
+    border-radius: 7px;
+    color: #333333;
+    background-color: #f0f0f0;
+    border: none;
+}
+
+
+/* CONTACT ---- >>  INPUT MSG */
+.contact-input-msg{
+    width: 748px;
+    height: 253px;
+    margin: 10px;
+    padding: 20px;
+    font-size: 18px;
+    text-align: start;
+    border-radius: 7px;
+    color: #333333;
+    outline: none;
+    background-color: #f0f0f0;
+    border: none;
+}
+
+/* CONTACT ---- >>  INPUT SUBMIT BTN */
+.input-submit-btn{
+    width: 225px;
+    height: 62px;
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+    padding: 14px 41px;
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 5px;
+    color: #ffffff;
+    background-color: #7843e9;
+}
+
+/* ----------------------------------------------------------------- END CONTACT CONTAINER DESIGN ---------------------------------------------------------- */
+
+
+/* FOOTER CONTAINER */
+.footer-container{
+    width: 1897px;
+    height: 277px;
+    background-color: #000000;
+}
+
+
+/* FOOTER ---- >> LEFT - RIGHT SECTION */
+.left-right-footer-section{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+/* FOOTER ---- >> LEFT SECTION */
+.left-footer-section{
+    width: 499px;
+    height: 170px;
+    margin-top: 40px;
+}
+
+
+/* FOOTER ---- >> LEFT  SUB HEADING PARA SECTION */
+.footer-sub-heading-para-section{
+    color: #ffffff;
+}
+
+
+/* FOOTER ---- >> LEFT  SUB HEADING CLASS */
+.footer-heading-class{
+    padding: 7px;
+    font-size: 23px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    word-spacing: 1px;
+    line-height: 30px;
+    text-align: start;
+    color: #ffffff;
+}
+
+
+/* FOOTER ---- >> LEFT PARA CLASS */
+.footer-para-class{
+    padding: 10px;
+    font-size: 17px;
+    letter-spacing: 0.2px;
+    word-spacing: 0.2px;
+    line-height: 23px;
+    text-align: justify;
+}
+
+
+/* FOOTER ---- >> RIGHT SECTION */
+.right-footer-section{
+    width: 499px;
+    height: 108px;
+    margin-top: 40px;
+}
+
+
+/* FOOTER ---- >> SOCIAL LINK SECTION */
+.footer-social-link-section{
+    padding: 10px;
+    display: flex;
+    gap: 25px;
+}
+
+
+/* FOOTER ---- >>  DRAW HORIZONTAL LINE IN CSS  */
+.horizontal-line{
+    width: 1897px;
+    height: 2px;
+    border: 1px solid rgb(29, 194, 172);
+}
+
+
+/* FOOTER ---- >> COPYRIGHT TEXT */
+.copyright-text{
+    width: 1897px;
+    height: 15px;
+    margin-top: 25px;
+    color: #ffffff;
+    font-size: 15px;
+    word-spacing: 0.2px;
+}
+
+
+/* FOOTER ---- >> COPYRIGHT TEXT LINK */
+.copyright-text-link{
+    color: #ffffff;
+    text-decoration: underline;
+}
